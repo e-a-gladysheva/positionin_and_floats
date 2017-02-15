@@ -1,0 +1,22 @@
+html, 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.block {
+	height: 2000px;
+	width: 50%;
+}
+
+.block:nth-child(1) {
+	background: #ebe9ec;
+}
+
+.block:nth-child(2) {
+	background: #cbc9cc;
+}
+
+.block:nth-child(3) {
+	background: #aba9ac;
+}
