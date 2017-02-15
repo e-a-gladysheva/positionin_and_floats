@@ -43,3 +43,13 @@ body
 {
     background: #ebe9ec;
 }
+
+.share
+{
+    position: fixed;
+
+    width: 200px;
+    height: 100px;
+
+    background: #f7b05d;
+}
