@@ -1,0 +1,160 @@
+@font-face
+{
+    font-family: 'MyriadPro';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/MyriadProRegular/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/MyriadProRegular/MyriadProRegular.woff') format('woff'),
+    url('../fonts/MyriadProRegular/MyriadProRegular.ttf') format('truetype');
+}
+
+html,
+body
+{
+    font-family: 'MyriadPro';
+
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+
+    color: #333;
+}
+
+.container
+{
+    position: relative;
+    top: 200px;
+
+    width: 523px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.page
+{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.page:nth-child(1)
+{
+    top: 60px;
+    left: 60px;
+
+    background: #aba9ac;
+}
+
+.page:nth-child(2)
+{
+    top: 30px;
+    left: 30px;
+
+    background: #cbc9cc;
+}
+
+.page:nth-child(3)
+{
+    background: #ebe9ec;
+}
+
+.block
+{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 35px;
+
+    border: 2px solid black;
+}
+
+.right
+{
+    float: right;
+
+    margin: 0 0 15px 15px;
+}
+
+.left
+{
+    float: left;
+
+    margin: 0 15px 15px 0;
+}
+
+section > p
+{
+    font-size: 12px;
+
+    margin: 0;
+}
+
+footer
+{
+    font-size: 9px;
+
+    text-align: center;
+}
+
+section:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: '';
+}
+
+.sticker
+{
+    position: absolute;
+    top: 60px;
+
+    box-sizing: border-box;
+    width: 111px;
+    height: 35px;
+
+    border: 2px solid black;
+    border-radius: 0 10px 10px 0;
+}
+
+.page:nth-child(1) .sticker
+{
+    right: -15px;
+
+    background: #15aaee;
+}
+
+.page:nth-child(2) .sticker
+{
+    right: -55px;
+
+    background: #38b64a;
+}
+
+.page:nth-child(3) .sticker
+{
+    right: -95px;
+
+    background: #f58d56;
+}
+
+.share
+{
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+
+    box-sizing: border-box;
+    width: 89px;
+    height: 71px;
+
+    text-align: center;
+
+    border: 1px solid black;
+    background: #f7b05d;
+}
