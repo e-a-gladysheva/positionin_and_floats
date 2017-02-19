@@ -112,34 +112,38 @@ section:after
 .sticker
 {
     position: absolute;
-    top: 60px;
 
     box-sizing: border-box;
     width: 111px;
     height: 35px;
 
     border: 2px solid black;
-    border-radius: 0 10px 10px 0;
 }
 
 .page:nth-child(1) .sticker
 {
-    right: -15px;
+    top: 50px;
+    right: -10px;
 
+    border-radius: 0 0 10px 0;
     background: #15aaee;
 }
 
 .page:nth-child(2) .sticker
 {
-    right: -55px;
+    top: 55px;
+    right: -48px;
 
+    border-radius: 0 0 10px 0;
     background: #38b64a;
 }
 
 .page:nth-child(3) .sticker
 {
-    right: -95px;
+    top: 60px;
+    right: -86px;
 
+    border-radius: 0 10px 10px 0;
     background: #f58d56;
 }
 
@@ -158,3 +162,16 @@ section:after
     border: 1px solid black;
     background: #f7b05d;
 }
+
+.share > div:first-child 
+{
+    padding: 5px 0;
+}
+
+.sprite { background: url('../img/social-sprite.png') no-repeat top left; width: 24px; height: 24px; display: inline-block; } 
+.sprite.facebook { background-position: 0 0; } 
+.sprite.twitter { background-position: -24px 0; } 
+.sprite.instagram { background-position: -48px 0; } 
+.sprite.facebook:hover { background-position: -72px 0; } 
+.sprite.twitter:hover { background-position: -96px 0; } 
+.sprite.instagram:hover { background-position: -120px 0; } 
